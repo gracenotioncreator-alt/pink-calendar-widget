@@ -1,23 +1,23 @@
 .fade {
-    color: #402E2A;
+    color: #b99e8e;
     opacity: 0.5;
 }
 
 body {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: Archivo Black, sans-serif;
     display: grid;
     place-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #FFF8F0;
+    background-color: #FFFFFF;
 }
 
 .calendar {
-    background-color: #FFF8F0;
+    background-color: #FFF9F2;
     border-radius: 25px;
     overflow: hidden;
     width: 320px;
-    color: #402E2A;
+    color: #895129;
     padding: 20px;
 }
 
@@ -28,13 +28,12 @@ body {
     padding: 10px;
 }
 
-/* PILL */
-
+/* 🔥 PILL */
 .month-pill {
     margin-top: 2px;
     display: flex;
     align-items: center;
-    background-color: #F8BBD0;
+    background-color: #D9B898;
     border-radius: 999px;
     padding: 0 14px;
     gap: 8px;
@@ -43,8 +42,7 @@ body {
     height: 38px;
 }
 
-/* ARROW BUTTON */
-
+/* 🔥 ARROW BUTTON */
 .month-pill .btn {
     cursor: pointer;
     display: flex;
@@ -54,8 +52,7 @@ body {
     flex-shrink: 0;
 }
 
-/* WHITE ARROWS */
-
+/* 🔥 WHITE ARROWS */
 .month-pill .btn i {
     color: #FFFFFF;
     line-height: 38px;
@@ -66,8 +63,7 @@ body {
     opacity: 0.7;
 }
 
-/* MONTH TEXT */
-
+/* 🔥 MONTH TEXT */
 #month-year {
     margin-top: 2px;
     flex-grow: 1;
@@ -92,7 +88,7 @@ body {
 }
 
 .weekdays div, .days div {
-    color: #402E2A;
+    color: #895129;
     width: 40px;
     height: 40px;
     display: flex;
@@ -111,12 +107,12 @@ body {
 }
 
 .days .today {
-    background-color: #F8BBD0;
-    color: #FFFFFF;
+    background-color: #D9B898;
+    color: #fff;
     border-radius: 50%;
     font-weight: bold;
 }
 
 .days .fade {
-    color: #402E2A;
+    color: #b99e8e;
 }
