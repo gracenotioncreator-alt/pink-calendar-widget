@@ -3,6 +3,7 @@
     opacity: 0.5;
 }
 
+/* CENTER ON RUN */
 body {
     font-family: Archivo Black, sans-serif;
     display: grid;
@@ -12,34 +13,36 @@ body {
     background-color: #FFFFFF;
 }
 
+/* 🔥 MINI CALENDAR */
 .calendar {
     background-color: #FFF9F2;
-    border-radius: 25px;
+    border-radius: 26px;
     overflow: hidden;
-    width: 320px;
+    width: 210px;       /* 👈 perfect for 3rd column */
     color: #895129;
-    padding: 20px;
+    padding: 10px;
 }
 
+/* HEADER */
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 4px;
 }
 
-/* 🔥 PILL */
+/* 🔥 MINI MONTH PILL */
 .month-pill {
-    margin-top: 2px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #D9B898;
     border-radius: 999px;
-    padding: 0 14px;
-    gap: 8px;
+    padding: 0 8px;
+    gap: 4px;
     width: 100%;
-    max-width: 260px;
-    height: 38px;
+    max-width: 165px;
+    height: 26px;
 }
 
 /* 🔥 ARROW BUTTON */
@@ -48,24 +51,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 38px;
+    height: 26px;
     flex-shrink: 0;
 }
 
 /* 🔥 WHITE ARROWS */
 .month-pill .btn i {
     color: #FFFFFF;
-    line-height: 38px;
-    transition: 0.2s ease;
-}
-
-.month-pill .btn:hover i {
-    opacity: 0.7;
+    line-height: 26px;
+    font-size: 10px;
 }
 
 /* 🔥 MONTH TEXT */
 #month-year {
-    margin-top: 2px;
     flex-grow: 1;
     text-align: center;
     white-space: nowrap;
@@ -74,47 +72,41 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 38px;
+    font-size: 11px;
+    line-height: 26px;
 }
 
+/* GRID */
 .weekdays, .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
 
 .days {
-    height: 240px;
+    height: 150px;
 }
 
+/* DAYS */
 .weekdays div, .days div {
     color: #895129;
-    width: 40px;
-    height: 40px;
+    width: 22px;
+    height: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2px auto;
+    margin: 1px auto;
     text-align: center;
     padding: 0;
     border-radius: 50%;
+    font-size: 10px;
 }
 
-.days div {
-    font-family: 'Archivo', Arial, sans-serif;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
+/* TODAY */
 .days .today {
     background-color: #D9B898;
     color: #fff;
     border-radius: 50%;
     font-weight: bold;
-}
-
-.days .fade {
-    color: #b99e8e;
 }
 
 .days .fade {
