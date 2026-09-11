@@ -1,5 +1,5 @@
 .fade {
-    color: #b99e8e;
+    color: #402E2A;
     opacity: 0.5;
 }
 
@@ -15,11 +15,11 @@ body {
 
 /* 🔥 MINI CALENDAR */
 .calendar {
-    background-color: #FFF9F2;
+    background-color: #FFF8F0;
     border-radius: 26px;
     overflow: hidden;
     width: 210px;       /* 👈 perfect for 3rd column */
-    color: #895129;
+    color: #402E2A;
     padding: 10px;
 }
 
@@ -36,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #D9B898;
+    background-color: #F8BBD0;
     border-radius: 999px;
     padding: 0 8px;
     gap: 4px;
@@ -88,7 +88,7 @@ body {
 
 /* DAYS */
 .weekdays div, .days div {
-    color: #895129;
+    color: #402E2A;
     width: 22px;
     height: 22px;
     display: flex;
@@ -103,12 +103,12 @@ body {
 
 /* TODAY */
 .days .today {
-    background-color: #D9B898;
-    color: #fff;
+    background-color: #F8BBD0;
+    color: #FFFFFF;
     border-radius: 50%;
     font-weight: bold;
 }
 
 .days .fade {
-    color: #b99e8e;
+    color: #402E2A;
 }
